@@ -4,3 +4,19 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+.container {
+}
+.top {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.arrow {
+	height: 50px;
+	cursor: pointer;
+}
+
+.right {
+	transform: rotate(180deg);
+}
